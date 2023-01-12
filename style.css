@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+nav{
+   
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 0%;
+    z-index: 10000;
+    background-color: white;
+}
+
+.left{
+   
+    width: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left>a{
+    font-size: 2vmax;
+    font-weight: bolder;
+}
+
+.mid{
+   
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: stretch;
+}
+
+.mid>a{
+    color: black;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid>a:hover{
+    border-bottom: 1px solid crimson;
+    transition: all 0.5s;
+}
+
+.right{
+   
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right>img{
+    width: 2.5vmax;
+}
+.home{
+    display: flex;
+    height: 90vh;
+
+    background: linear-gradient(to right,rgb(55, 180, 180),rgb(64, 64, 136));
+}
+
+.container{
+    width: 100%;
+
+}
+
+#rightContainer{
+    display: flex;
+    justify-content: flex-end;
+    
+
+
+}
+#rightContainer>img{
+    margin-left: 7vmax;
+    filter: drop-shadow(0 0 10px black);
+}
+
+#leftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vmax;
+}
+#leftContainer>h1{
+    font-size: 5vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#leftContainer>h2{
+    margin-top: -9%;
+    font-size: 2vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
+}
+#leftContainer>p{
+    font-size: 1.2vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    
+}
+
+#leftContainer>button{
+    width: 11vmax;
+    padding: 0.6vmax;
+    border: none;
+    border-radius: 2vmax;
+    background-color: crimson;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    margin: 2%;
+
+}
+#leftContainer>button:hover{
+    background-color: rgb(80, 6, 21);
+}
+
+#product{
+    height: 100vh;
+    border: 1px sold black;
+}
+#product>h1{
+    text-align: center;
+    font-size: 2.5vmax;
+    margin: 2vmax auto;
+    padding: 1vmax;
+    border-bottom: 3px solid crimson;
+    width: 25vw;
+}
+
+
+
+
+
